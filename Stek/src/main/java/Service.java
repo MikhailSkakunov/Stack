@@ -1,5 +1,6 @@
 import com.opencsv.*;
 import com.opencsv.exceptions.CsvException;
+import model.AccrualSubscriber;
 
 import java.io.FileReader;
 import java.io.FileWriter;

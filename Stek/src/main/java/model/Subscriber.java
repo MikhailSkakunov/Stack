@@ -1,8 +1,7 @@
+package model;
+
 import com.opencsv.bean.CsvBindByName;
 import com.opencsv.bean.CsvBindByPosition;
-
-import javax.sql.rowset.spi.SyncResolver;
-import java.beans.Transient;
 
 
 public class Subscriber {

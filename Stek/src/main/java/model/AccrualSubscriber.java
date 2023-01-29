@@ -1,3 +1,5 @@
+package model;
+
 import com.opencsv.bean.CsvBindByName;
 import com.opencsv.bean.CsvBindByPosition;
 
@@ -40,20 +42,6 @@ public class AccrualSubscriber {
     private double accrual;
 
         public AccrualSubscriber() {
-        }
-
-        public AccrualSubscriber(int id, String lastName, String streetName, int houseNumber,
-                                  int apartmentNumber, int accrualType, int previousValue,
-                                  int presentValue, double accrual) {
-            this.id = id;
-            this.lastName = lastName;
-            this.streetName = streetName;
-            this.houseNumber = houseNumber;
-            this.apartmentNumber = apartmentNumber;
-            this.accrualType = accrualType;
-            this.previousValue = previousValue;
-            this.presentValue = presentValue;
-            this.accrual = accrual;
         }
 
         public int getId() {
